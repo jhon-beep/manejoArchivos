@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
+import java.nio.file.StandardOpenOption; 
  
 /**
  *
@@ -42,10 +42,10 @@ public class OperacionesArchivo {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        } 
     }
     public void eliminarArchivo(){
-        
+        System.out.println(" dksajdlk");
     }
     public static void main(String[] args) {
         OperacionesArchivo ob=new OperacionesArchivo();
