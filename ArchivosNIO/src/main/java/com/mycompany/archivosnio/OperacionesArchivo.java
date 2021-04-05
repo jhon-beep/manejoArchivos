@@ -43,9 +43,9 @@ public class OperacionesArchivo {
         } catch (IOException e) {
             e.printStackTrace();
         } 
-    }
-    public void eliminarArchivo(){
-        System.out.println(" dksajdlk");
+    }   
+    public void eliminarArchivo(){ 
+        System.out.println(" dksajdlks");
     }
     public static void main(String[] args) {
         OperacionesArchivo ob=new OperacionesArchivo();
