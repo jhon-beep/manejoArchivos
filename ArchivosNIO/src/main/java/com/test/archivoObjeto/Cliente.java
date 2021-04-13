@@ -22,7 +22,7 @@ public class Cliente implements Serializable{
     private TarjetaDebito tarjeta;
     //metodos
     public void mostrarCliente(){
-        System.out.println("Nombre:  "+this.nombre);
+        System.out.println("Nombre: "+this.nombre);
         System.out.println("Paterno: "+this.paterno);
         System.out.println("Materno:  "+this.materno);
         System.out.println("Nro. Cedula: "+this.cedula);

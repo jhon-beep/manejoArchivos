@@ -48,7 +48,7 @@ public class PrincipalClienteTarjeta {
                     obj.guardarObjetos();
                     break;
                 case 4:
-                    obj.leerClientes();
+                    obj.leerClientes() ;
                     obj.mostrarCliente();
                     break;
 
