@@ -31,7 +31,7 @@ public class PrincipalClienteTarjeta {
             System.out.println("Digite una opcion");
             opc = leer.nextInt();
             switch (opc) {
-                case 1:
+                case 1: 
                     obj.crearArchivo();
                     break;
                 case 2:

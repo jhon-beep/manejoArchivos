@@ -172,7 +172,7 @@ public class OperacionesClienteTarjeta {
     //cargamos los datos del archivo a un list<Cliente>
     public void leerClientes(){
         String ruta="C:\\Users\\JVC\\Documents\\ARCHIVOSNIO\\archivoCliente.txt";
-        try {
+        try {  
             FileInputStream archivo=new FileInputStream(ruta);
             ObjectInputStream ois=new ObjectInputStream(archivo);
             if(ois!=null){
