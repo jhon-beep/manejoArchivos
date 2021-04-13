@@ -38,7 +38,6 @@ public class OperacionesArchivo {
                 System.out.println(" el archvo ya existe ");
                 // agregando contenido al archivo creado anteriormente 
                 Files.write(path, "Creando archivos con javadddd ".getBytes(), StandardOpenOption.APPEND);
-                 
             }
         } catch (IOException e) {
             e.printStackTrace();

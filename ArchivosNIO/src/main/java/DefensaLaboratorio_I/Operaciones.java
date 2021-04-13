@@ -62,7 +62,7 @@ public class Operaciones {
         String ruta="C:\\Users\\JVC\\Documents\\ARCHIVOSNIO\\MaterialBibliografico.txt";
         try {  
             FileInputStream archivo=new FileInputStream(ruta);
-            ObjectInputStream ois=new ObjectInputStream(archivo);
+            ObjectInputStream  ois=new ObjectInputStream(archivo);
             if(ois!=null){
                 listaProyecto=(List<ProyecyoGrado>)ois.readObject();
                  listaLibro=(List<Libro>)ois.readObject();

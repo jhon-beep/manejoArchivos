@@ -178,7 +178,7 @@ public class OperacionesClienteTarjeta {
             if(ois!=null){
                 listaCliente=(List<Cliente>)ois.readObject();
             }else{
-                System.out.println("El objeto es nulo");
+                System.out. println("El objeto es nulo");
             }
         } catch (FileNotFoundException e) {
             Logger.getLogger(OperacionesClienteTarjeta.class.getName()).log(Level.SEVERE, null, e);

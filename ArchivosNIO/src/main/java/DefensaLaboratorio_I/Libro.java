@@ -7,7 +7,7 @@ import java.io.Serializable;
 public class Libro extends MaterialBibliografico   {
    
     private int  edicion; 
-     private String  area;  
+     private String  area ;   
    public void mostrar() {
  
         System.out.println("Titulo   " + super.getTitulo());

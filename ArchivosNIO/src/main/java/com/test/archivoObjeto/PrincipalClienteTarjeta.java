@@ -54,7 +54,7 @@ public class PrincipalClienteTarjeta {
 
                 case 5:
                     obj.leerClientes();
-                    System.out.println("Digite el numero de cedula");
+                    System.out.println("Digite  el numero de cedula");
                     int c = leer.nextInt();
                     obj.cambiarEstado(c);
                     obj.guardarObjetos();

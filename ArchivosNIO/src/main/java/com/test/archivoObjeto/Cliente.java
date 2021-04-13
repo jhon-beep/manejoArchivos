@@ -14,7 +14,7 @@ import java.io.Serializable;
 public class Cliente implements Serializable{
     static final long serialVersionUID=43L;
     //atributos
-    private String nombre;
+    private String  nombre;
     private String paterno;
     private String materno;
     private int cedula;
@@ -22,9 +22,9 @@ public class Cliente implements Serializable{
     private TarjetaDebito tarjeta;
     //metodos
     public void mostrarCliente(){
-        System.out.println("Nombre: "+this.nombre);
+        System.out.println("Nombre:  "+this.nombre);
         System.out.println("Paterno: "+this.paterno);
-        System.out.println("Materno: "+this.materno);
+        System.out.println("Materno:  "+this.materno);
         System.out.println("Nro. Cedula: "+this.cedula);
         System.out.println("---- TARJETA ----");
         if(tarjeta!=null){

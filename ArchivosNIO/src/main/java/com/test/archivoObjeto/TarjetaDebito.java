@@ -15,7 +15,7 @@ public class TarjetaDebito implements Serializable{
     static final long serialVersionUID=42L;
     //atributos
     private int nroTarjeta;
-    private int nroCuenta;
+    private int nroCuenta  ;
     private double saldo;
     private String estado;
     //metodos
