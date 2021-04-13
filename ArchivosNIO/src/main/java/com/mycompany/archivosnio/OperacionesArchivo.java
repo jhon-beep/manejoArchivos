@@ -44,7 +44,7 @@ public class OperacionesArchivo {
         } 
     }     
     public void eliminarArchivo(){ 
-         System.out.println(" dksajdlks"); 
+         System.out.println(" "); 
     }
     public static void main(String[] args) {
         OperacionesArchivo ob=new OperacionesArchivo();
