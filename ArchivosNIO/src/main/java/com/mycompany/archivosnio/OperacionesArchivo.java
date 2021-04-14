@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
+import java.nio.file.StandardOpenOption; 
  
 /**
  *
@@ -38,19 +38,18 @@ public class OperacionesArchivo {
                 System.out.println(" el archvo ya existe ");
                 // agregando contenido al archivo creado anteriormente 
                 Files.write(path, "Creando archivos con javadddd ".getBytes(), StandardOpenOption.APPEND);
-                 
             }
         } catch (IOException e) {
             e.printStackTrace();
-        }
-    }
-    public void eliminarArchivo(){
-        
+        } 
+    }     
+    public void eliminarArchivo(){ 
+         System.out.println(" "); 
     }
     public static void main(String[] args) {
         OperacionesArchivo ob=new OperacionesArchivo();
         ob.crearDirectorio();
         ob.crearArchivo();
-    }
+    } 
     
 }
