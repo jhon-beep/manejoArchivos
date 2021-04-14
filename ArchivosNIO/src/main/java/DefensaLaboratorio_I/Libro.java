@@ -10,7 +10,7 @@ public class Libro extends MaterialBibliografico   {
      private String  area ;   
    public void mostrar() {
  
-        System.out.println("Titulo" + super.getTitulo());
+        System.out.println("Titulo:   " + super.getTitulo());
         System.out.println("autor   " + super.getAutor());
         System.out.println("edicion  " + edicion);
         System.out.println("area   " + area);

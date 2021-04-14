@@ -145,17 +145,22 @@ public class Operaciones {
         }
     }
     public void BuscarLibro(String ti){
+       int sw=0;
         if(listaLibro.size()>0){
             System.out.println("---------LIBROS-----------");
             for (Libro lista : listaLibro) {
                 if(ti.equalsIgnoreCase(lista.getTitulo())){
                     lista.mostrar();
+                    sw=1;
                 } 
             }
+            if(sw==0){
+                System.out.println(" no se encuentra el libro");
+            } 
         }else{
             System.out.println(" no tiene ningun libro registrado");
         }
-    }
+    } 
     public void Eliminar(){
         if (listaProyecto.size() > 0 || listaLibro.size() > 0) {
             System.out.println("1.- eliminar proyecto de grado");

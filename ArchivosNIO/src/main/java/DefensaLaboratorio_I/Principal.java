@@ -31,7 +31,7 @@ public class Principal {
                         System.out.println("Desea seguir registrando material Bibliografico S/N");
                         res = leer.nextLine();
                     } 
-                    break;
+                    break; 
                 case 3:
                     obj.leerBibliografia();
                     obj.mostrarp();
